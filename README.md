@@ -1,16 +1,18 @@
-# La Cueva Gamer
+La Cueva Gamer
+Visión General
+La Cueva Gamer es una aplicación de una sola página diseñada para que los gamers naveguen y compren productos de videojuegos. La aplicación presenta una interfaz fácil de usar con una página de bienvenida, una página de ventas que incluye un carrito de compras y un sistema de inicio de sesión seguro para diferenciar entre usuarios regulares y administradores.
 
-## Overview
-La Cueva Gamer is a single-page application designed for gamers to browse and purchase gaming products. The application features a user-friendly interface with a welcome page, a sales page that includes a shopping cart, and a secure login system to differentiate between regular users and administrators.
+Características
+Página de Bienvenida: Una página de inicio que presenta a los usuarios La Cueva Gamer.
 
-## Features
-- **Welcome Page**: A landing page that introduces users to La Cueva Gamer.
-- **Sales Page**: A page where users can view and purchase products. It includes a shopping cart for managing selected items.
-- **User Authentication**: A login system that allows users to register and log in. Regular users can make purchases, while administrators have additional privileges.
-- **Admin Panel**: An interface for administrators to manage product stock, including adding, updating, and deleting products.
+Página de Ventas: Una página donde los usuarios pueden ver y comprar productos. Incluye un carrito de compras para gestionar los artículos seleccionados.
 
-## Project Structure
-The project is organized into the following main directories and files:
+Autenticación de Usuario: Un sistema de inicio de sesión que permite a los usuarios registrarse e iniciar sesión. Los usuarios regulares pueden realizar compras, mientras que los administradores tienen privilegios adicionales.
+
+Panel de Administración: Una interfaz para que los administradores gestionen el stock de productos, incluyendo agregar, actualizar y eliminar productos.
+
+Estructura del Proyecto
+El proyecto está organizado en los siguientes directorios y archivos principales:
 
 ```
 TP-LCG-VIDAL
@@ -73,21 +75,27 @@ TP-LCG-VIDAL
 │           └── styles
 │               └── main.css
 └── README.md
+
 ```
 
-## Setup Instructions
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Create a `.env` file and configure your environment variables (e.g., database connection strings).
-4. Run `docker-compose up` to start the application.
-5. Access the application in your web browser.
+Instrucciones de Configuración
+Clona el repositorio en tu máquina local.
 
-## Technologies Used
-- Node.js
-- Express.js
-- Prisma ORM
-- React.js
-- Docker
+Navega al directorio del proyecto.
 
-## Contribution
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+Crea un archivo .env y configura tus variables de entorno (por ejemplo, las cadenas de conexión a la base de datos).
+
+Ejecuta docker-compose up para iniciar la aplicación.
+
+Accede a la aplicación en tu navegador web.
+
+Tecnologías Utilizadas
+Node.js
+
+Express.js
+
+Prisma ORM
+
+React.js
+
+Docker
