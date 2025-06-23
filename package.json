@@ -1,0 +1,42 @@
+{
+  "name": "la-cueva-gamer",
+  "version": "1.0.0",
+  "description": "A single-page application for La Cueva Gamer, featuring a sales page, shopping cart, and user authentication.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^7.2.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.7.1",
+    "prisma": "^2.30.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^0.0.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "keywords": [
+    "gamer",
+    "ecommerce",
+    "single-page-application",
+    "react",
+    "node"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

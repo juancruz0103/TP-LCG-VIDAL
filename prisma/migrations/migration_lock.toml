@@ -1,0 +1,8 @@
+# The contents of the file /TP-LCG-VIDAL/prisma/migrations/migration_lock.toml
+
+version = 3
+
+[migrations]
+  [migrations.lock]
+  version = 3
+  migration_id = "20250613145801_init"
