@@ -1,5 +1,6 @@
 La Cueva Gamer
-Visión General
+
+
 La Cueva Gamer es una aplicación de una sola página diseñada para que los gamers naveguen y compren productos de videojuegos. La aplicación presenta una interfaz fácil de usar con una página de bienvenida, una página de ventas que incluye un carrito de compras y un sistema de inicio de sesión seguro para diferenciar entre usuarios regulares y administradores.
 
 Características
