@@ -3,7 +3,7 @@
 const UserService = require('../services/user.service');
 
 // Register a new user
-exports.register = async (req, res) => {
+exports.registerUser = async (req, res) => {
     try {
         const user = await UserService.createUser(req.body);
         res.status(201).json(user);
@@ -13,7 +13,7 @@ exports.register = async (req, res) => {
 };
 
 // Login a user
-exports.login = async (req, res) => {
+exports.loginUser = async (req, res) => {
     try {
         const { email, password } = req.body;
         const token = await UserService.authenticateUser(email, password);
@@ -51,4 +51,7 @@ exports.deleteUser = async (req, res) => {
     } catch (error) {
         res.status(404).json({ message: error.message });
     }
+};
+export const getUserProfile = (req, res) => {
+    res.json({ message: "Perfil de usuario" });
 };
